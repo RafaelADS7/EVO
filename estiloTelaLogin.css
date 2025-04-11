@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.esquerda {
+    background-color: #000000;
+    overflow-y: hidden;
+    width: 50%;
+}
+
+
+
+
+p {
+    color: #000000;
+    font-size: 0.6rem;
+}
+
+
+
+
+.imagem_principal {
+    width: 53%;
+    height: auto;
+}
+
+.bloco_logo_enomeEVO {
+    display: flex;
+    align-items: center;
+}
+
+.pjogo_favorito {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+
+}
+
+.bloco_textos {
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.bloco_imagemEbotao {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botao_mais {
+    margin-left: 7%;
+    margin-top: -40%;
+    width: 6%;
+    height: 7%;
+    border-radius: 30px;
+    border: none;
+    background-color: #5D1993;
+    color: #000000;
+    cursor: pointer;
+}
+
+.logoEvo_esquerda {
+    width: 6%;
+    height: 6%;
+    margin: 1%;
+}
+
+.botao_conhecaAEVO {
+    width: 22%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2%;
+    cursor: pointer;
+    border: none;
+    margin-top: 1%;
+    background-color: #00ECFF;
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+h2 {
+    font-size: 2.1rem;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+.direita {
+    background-color: white;
+    overflow-y: hidden;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_concluir_login {
+    width: 65%;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2%;
+    background-color: #5D1993;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    width: 61%;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.p_ultimo {
+    margin-top: 1%;
+
+}
+
+.destaque_corRoxa {
+    color: #5D1993;
+}
+
+
+.bloco_3 {
+    display: flex;
+    width: 67%;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+}
+
+.separacao_Bloco_3 {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    
+}
+
+.botao_nao_aceito {
+    width: 30%;
+}
+
+
+h3 {
+    color: #5D1993;
+    text-align: left;
+    width: 65%;
+    margin-bottom: 2%;
+}
+
+.logoEvo_direita {
+    margin-bottom: 5%;
+}
+
+input::placeholder {
+    color: #5D1993;
+}
+
